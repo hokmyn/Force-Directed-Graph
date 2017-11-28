@@ -91,7 +91,7 @@ function updateNodes() {
     .append('img')
     .merge(u)
     .attr('class', d => 'flag flag-' + d.code)
-    .style("left",(d)=>{  return (d.x + 100)+"px"; })
+    .style("left",(d)=>{  return (d.x + 70)+"px"; })
     .style("top",(d)=>{  return (d.y + 80)+"px"; })
     .on('mouseover', function(d) {
               tooltip.transition()
